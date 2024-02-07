@@ -12,6 +12,9 @@ struct TestCombinePublisherApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    run()
+                }
         }
     }
 }
